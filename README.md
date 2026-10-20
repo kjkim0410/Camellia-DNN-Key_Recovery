@@ -131,3 +131,15 @@ Suggested repository name: `camellia-relu-key-reconstruction`. Suggested descrip
 This repository is licensed under the [MIT License](LICENSE). Copyright (c) 2026 Kwangjo Kim.
 
 Paper title, complete author list, and publication URL/DOI should be finalized before release. See [the publishing checklist](docs/PUBLISHING_CHECKLIST.md).
+
+## Experimental Results
+
+The `results/` directory contains the execution logs of the Python programs for DNN-based master-key recovery against Camellia-128, Camellia-192, and Camellia-256.
+
+| File | Description |
+|---|---|
+| `results/Camellia_128_out.txt` | Experimental output for Camellia-128 |
+| `results/Camellia_192_out.txt` | Experimental output for Camellia-192 |
+| `results/Camellia_256_out.txt` | Experimental output for Camellia-256 |
+
+These files are provided to support reproducibility and independent verification of the experimental results reported in the accompanying research paper.
